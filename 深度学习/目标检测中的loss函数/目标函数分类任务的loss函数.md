@@ -8,7 +8,7 @@
   
 ## &emsp;&emsp;Softmax常用于多分类的问题，它将多个神经元的输出归一化到(0,1)之间，因此Softmax的输出可以看成是概率，从而进行多分类。
   
-## &emsp; &emsp;假设我们有一个包含K个元素的数组V,i表示V中的第i个元素，那么这个i元素的Softmax就是<center><font face="黑体" size=7> $S_i = \frac{e^i }{sum^{j==k}_{j =1}{e^j}}$</font> </center>
+## &emsp; &emsp;假设我们有一个包含K个元素的数组V,i表示V中的第i个元素，那么这个i元素的Softmax就是 <center><font face="黑体" size=7></font> </center>  $S_i = \frac{e^i }{sum^{j==k}_{j =1}{e^j}}$
 
 
 
