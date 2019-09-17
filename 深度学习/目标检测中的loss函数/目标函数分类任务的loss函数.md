@@ -10,6 +10,7 @@
   
 ## &emsp; &emsp;假设我们有一个包含K个元素的数组V,i表示V中的第i个元素，那么这个i元素的Softmax就是 
 <div align=center><img width="150" height="150" src="http://chart.googleapis.com/chart?cht=tx&chl=$S_i=\frac{e^i}{sum^{j=k}_{j=1}{e^j}}$"/></div>
+
 ![](http://chart.googleapis.com/chart?cht=tx&chl=$S_i=\frac{e^i}{sum^{j=k}_{j=1}{e^j}}$)
 
 <!--
