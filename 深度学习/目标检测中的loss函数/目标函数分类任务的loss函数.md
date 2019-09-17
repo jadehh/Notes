@@ -12,7 +12,7 @@
 <div align=center><img width="150" height="150" src="http://chart.googleapis.com/chart?cht=tx&chl= ![](http://chart.googleapis.com/chart?cht=tx&chl= $S_i = \frac{e^i }{sum^{j==k}_{j =1}{e^j}})"/></div>
 ![](http://chart.googleapis.com/chart?cht=tx&chl= $S_i = \frac{e^i }{sum^{j==k}_{j =1}{e^j}})
 
-![](https://chart.apis.google.com/chart?cht=tx&chf=bg,s,FFFF00&chl=%0D%0A4x_0%5CDelta%28x%29%2B3%5CDelta%28x%29%2B2%5CDelta%28x%5E2%29%3E0%0D%0A)
+![](https://chart.apis.google.com/chart?cht=tx&chf=$S_i = \frac{e^i }{sum^{j==k}_{j =1}{e^j}},FFFF00&chl=%0D%0A4x_0%5CDelta%28x%29%2B3%5CDelta%28x%29%2B2%5CDelta%28x%5E2%29%3E0%0D%0A)
 
 
 <!--
