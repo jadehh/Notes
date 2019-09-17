@@ -13,7 +13,7 @@
 <!--![](https://chart.apis.google.com/chart?cht=tx&chf=bg,s,FFFF00&chl= $S_i = \frac{e^i }{sum^{j==k}_{j =1}{e^j}}$)-->
 $S_i = \frac{e^i }{sum^{j==k}_{j =1}{e^j}}$
 
-![](http://chart.googleapis.com/chart?cht=tx&chl=$S_i = \frac{e^i }{sum^{j==k}_{j =1}{e^j}}$)
+![](http://chart.googleapis.com/chart?cht=tx&chl=S_i = \frac{e^i }{sum^{j==k}_{j =1}{e^j}})
 
 <!--
 <center><font face="黑体" size=7> $S_i = \frac{e^i }{sum^{j==k}_{j =1}{e^j}}$</font> </center>-->
