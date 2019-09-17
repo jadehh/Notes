@@ -8,7 +8,7 @@
   
 ## &emsp;&emsp;Softmax常用于多分类的问题，它将多个神经元的输出归一化到(0,1)之间，因此Softmax的输出可以看成是概率，从而进行多分类。
   
-## &emsp; &emsp;假设我们有一个包含K个元素的数组V,i表示V中的第i个元素，那么这个i元素的Softmax就是 <center><font face="黑体" size=7> $S_i = \frac{e^i }{\Sigma^{j=k}_{j=1}{e^j}}$</font> </center> <div align=center><img width="300" height="150" src="http://chart.googleapis.com/chart?chs=300x150&cht=tx&chl=$S_i=\frac{e^i}{\Sigma^{j=k}_{j=1}{e^j}}$"/></div>
+## &emsp; &emsp;假设我们有一个包含K个元素的数组V,i表示V中的第i个元素，那么这个i元素的Softmax就是 <!--<center><font face="黑体" size=7> $S_i = \frac{e^i }{\Sigma^{j=k}_{j=1}{e^j}}$</font> </center> --><div align=center><img width="300" height="150" src="http://chart.googleapis.com/chart?chs=300x150&cht=tx&chl=$S_i=\frac{e^i}{\Sigma^{j=k}_{j=1}{e^j}}$"/></div>
 
 ## &emsp; &emsp;下图是关于Softmax过程图<div align=center>![](media/15687375324109.png)</div>
 ## &emsp; &emsp; Softmax 前面一层一般为全连接层，全连接层的作用就是就是分类在这里数组V包含3个元素，对应的分类个数就是3类，Softmax的作用就是计算属于3类中的概率。使用e次方的作用就是将值全连接层中的值归一化到(0,1)之间。
