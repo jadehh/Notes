@@ -18,4 +18,4 @@
 ## tf.nn.softmax_cross_entropy_with_logits
 * 第一个参数logits：就是神经网络最后一层的输出，一般为全连接层的输出，如果有batch的话，它的大小就是[batchsize，num_classes]，单样本的话，大小就是num_classes。
 * 第二个参数labels：实际的标签，大小同上。
-现在需要修改这个
+* tf.nn.softmax_cross_entropy_with_logits 先计算Softmax后的结果，然后在计算Cross Entropy。
