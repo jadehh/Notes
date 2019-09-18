@@ -12,9 +12,13 @@
 
 
 ## &emsp; &emsp;下图是关于Softmax过程图<div align=center>![](media/15687375324109.png)</div>
-## &emsp; &emsp; Softmax 前面一层一般为全连接层，全连接层的作用就是就是分类，在这里数组V包含3个元素，对应的分类个数就是3类，Softmax的作用就是计算属于3类中的概率。使用e次方的作用就是将值全连接层中的值归一化到(0,1)之间。
+## &emsp; &emsp; Softmax 前面一层一般为全连接层，全连接层的作用就是就是分类，在这里数组V包含3个元素，对应的分类个数就是3类，Softmax的作用就是计算属于3类中的概率。使用e次方的作用就是将值全连接层中的值归一化到(0,1)之间。<!--![](http://chart.googleapis.com/chart?cht=tx&chl=$S_i=\frac{e^i}{sum^{j=k}_{j=1}{e^j}}$)-->  
+* 注意在Tensorflow在TensorFlow中使用Cross Entropy Loss时，主要是使用tf.nn.softmax_cross_entropy_with_logits这类函数，但这类函数需要输入的是未经过Softmax的Logits。而所谓的unscaled logits就可以粗略理解为没有经过Softmax的变量。这一点要与数学上的logits ( 一个事件发生与该事件不发生的比值的对数) 进行区分
 
-<!--![](http://chart.googleapis.com/chart?cht=tx&chl=$S_i=\frac{e^i}{sum^{j=k}_{j=1}{e^j}}$)-->
+## tf.nn.softmax_cross_entropy_with_logits
+* 第一个参数logits：就是神经网络最后一层的输出，一般为全连接层的输出，如果有batch的话，它的大小就是[batchsize，num_classes]，单样本的话，大小就是num_classes
+* 第二个参数labels：实际的标签，大小同上
+
 
 
 
