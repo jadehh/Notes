@@ -5,9 +5,8 @@
 ## &emsp;&emsp; Faster-RCNN 主要一共分为四个部分。
 
 ## &emsp;&emsp; 主干网络提取特征层，可以使用VGG或者是Resnet,目的就是为了提取特征
-## &emsp;&emsp; RPN(区域生成网络)，RPN是Faster-RCNN中的核心，对于候选框生成提供了一种更好的方法，RPN网络的结构图如下图
+## &emsp;&emsp; RPN(区域生成网络)，RPN是Faster-RCNN中的核心，对于候选框生成提供了一种更好的方法，RPN网络的结构图如下图<div align=center>![](assets/017c2454.png)</div>
 
-![](asserts/017c2454.png)
 
 ## &emsp;&emsp; Faster-RCNN 的核心是RPN，区域生成网络。[关于RPN的结构可以参考这边文章](https://www.cnblogs.com/wangyong/p/8513563.html)
 
